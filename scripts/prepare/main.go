@@ -1,0 +1,26 @@
+package main
+
+import (
+    "github.com/alicebob/miniredis"
+    "github.com/bsm/redeo"
+    "github.com/c4pt0r/cfg"
+    "github.com/codegangsta/inject"
+    "github.com/codegangsta/martini"
+    "github.com/codegangsta/martini-contrib"
+    "github.com/coreos/etcd"
+    "github.com/coreos/go-etcd"
+    "github.com/docopt/docopt-go"
+    "github.com/garyburd/redigo"
+    "github.com/go-martini/martini"
+    "github.com/juju/errors"
+    "github.com/martini-contrib/cors"
+    "github.com/ngaut/gostats"
+    "github.com/ngaut/log"
+    "github.com/ngaut/logging"
+    "github.com/ngaut/pools"
+    "github.com/ngaut/sync2"
+    "github.com/wandoulabs/go-zookeeper"
+    "github.com/wandoulabs/zkhelper"
+    "github.com/ugorji/go"
+    "github.com/wandoulabs/codis"
+)
