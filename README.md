@@ -1,5 +1,13 @@
-Split Codis in diffent docke containers.
+Docker Version For Codis
 ============
+
+Docker Hack Day Project, Beijing, 2015
+
+
+
+## NOTE
+
+This Project is for DEMO only, and we will improve it for PRODUCTION SOON.
 
 ## Prepare
 sh ./scripts/prepare/buildBase.sh
